@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Redis";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Redis</h1>
+</div>
+
+
+<form asp-controller="Redis" method="post">
+
+    <input type="submit" value="Add" formaction="Add" /> &nbsp;&nbsp;&nbsp;
+    <input type="submit" value="Show" formaction="Show" /> &nbsp;&nbsp;&nbsp;
+    <input type="submit" value="Delete" formaction="Delete" /> &nbsp;&nbsp;&nbsp;
+    <input type="submit" value="CacheImage" formaction="CacheImage" /> &nbsp;&nbsp;&nbsp;
+
+</form>
+
+<img src="/redis/ImageUrl"/>
