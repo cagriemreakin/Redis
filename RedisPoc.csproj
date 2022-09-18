@@ -22,4 +22,19 @@
   <ItemGroup>
     <Content Remove="wwwroot\images\" />
   </ItemGroup>
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="RedisExhange.Web.Api\Views\Home\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="RedisExhange.Web.Api\Views\Home\Privacy.cshtml" />
+    <_ContentIncludedByDefault Remove="RedisExhange.Web.Api\Views\Shared\Error.cshtml" />
+    <_ContentIncludedByDefault Remove="RedisExhange.Web.Api\Views\Shared\_Layout.cshtml" />
+    <_ContentIncludedByDefault Remove="RedisExhange.Web.Api\Views\Shared\_ValidationScriptsPartial.cshtml" />
+    <_ContentIncludedByDefault Remove="RedisExhange.Web.Api\Views\_ViewImports.cshtml" />
+    <_ContentIncludedByDefault Remove="RedisExhange.Web.Api\Views\_ViewStart.cshtml" />
+    <_ContentIncludedByDefault Remove="RedisExhange.Web.Api\appsettings.Development.json" />
+    <_ContentIncludedByDefault Remove="RedisExhange.Web.Api\appsettings.json" />
+    <_ContentIncludedByDefault Remove="RedisExhange.Web.Api\obj\project.assets.json" />
+    <_ContentIncludedByDefault Remove="RedisExhange.Web.Api\obj\project.packagespec.json" />
+    <_ContentIncludedByDefault Remove="RedisExhange.Web.Api\obj\RedisExhange.Web.Api.csproj.nuget.dgspec.json" />
+    <_ContentIncludedByDefault Remove="RedisExhange.Web.Api\Properties\launchSettings.json" />
+  </ItemGroup>
 </Project>
